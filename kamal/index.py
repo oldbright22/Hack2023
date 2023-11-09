@@ -8,7 +8,7 @@ load_dotenv()
 
 # Get the values from environment variables
 customer_id = os.getenv("CUSTOMER_ID")
-x_api_key = os.getenv("X_API_KEY")
+x_api_key = os.getenv("VECTARA_API_KEY")
 customerid = os.getenv("CUSTOMERID")
 tokens = os.getenv("TOKEN")
 corpusid= os.getenv("CORPUSID")
