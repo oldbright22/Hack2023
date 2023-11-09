@@ -101,7 +101,7 @@ def Chatbot(query):
     else:
         print(f"Request failed with status code: {response.status_code}")
                                             
-ask = input()
+ask = input("Enter your query: ")
 answer = Chatbot(ask)
 
 print(answer)
