@@ -11,6 +11,7 @@ customer_id = os.getenv("CUSTOMER_ID")
 x_api_key = os.getenv("X_API_KEY")
 customerid = os.getenv("CUSTOMERID")
 tokens = os.getenv("TOKEN")
+corpusid= os.getenv("CORPUSID")
 
 def Chatbot(query):
     
@@ -33,7 +34,7 @@ def Chatbot(query):
                 "corpusKey": [
                     {
                         "customerId": customerid,
-                        "corpusId": 2,
+                        "corpusId": corpusid,
                         "semantics": "DEFAULT",
                         "dim": [
                             {
